@@ -24,5 +24,6 @@ $Fail_Banner = @('
 Write-Host $Success_Banner -ForegroundColor Green
 #Write-Host $Fail_Banner -ForegroundColor Red
 
-
+Start Notepad.exe
+Pause
 
