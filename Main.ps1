@@ -20,9 +20,21 @@ $Fail_Banner = @('
              (_)  /_/   /_/  |_/___/_____/  (_)               
                                                               ')
 
+$Name = @('
+______          _            
+|  _  \        | |           
+| | | |_____  _| |_ ___ _ __ 
+| | | / _ \ \/ / __/ _ \ '__|
+| |/ /  __/>  <| ||  __/ |   
+|___/ \___/_/\_\\__\___|_|   
+                             
+                             ')
+
 
 Write-Host $Success_Banner -ForegroundColor Green
 #Write-Host $Fail_Banner -ForegroundColor Red
+
+Write-Host $Name -ForegroundColor Green
 
 Start Notepad.exe
 Pause
